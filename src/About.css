@@ -1,0 +1,63 @@
+.about {
+  padding: 40px 0;
+  background-color: #F8F9FA;
+}
+
+.about-content {
+  margin-bottom: 20px;
+}
+
+.custom-header {
+  background-color: #000;
+  color: #fff;
+}
+
+.accordion-item .custom-header:not(.collapsed) {
+  background-color: #ffffff; /* Black background when expanded */
+  color: #fff;
+}
+
+.accordion-item .custom-header.collapsed {
+  background-color: #000; /* Black background when collapsed */
+  color: #fff;
+}
+
+.accordion-body {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  text-align: justify; /* Justify the text */
+  line-height: 1.6; /* Optional: Increase line height for readability */
+  color: #555; /* Optional: Set text color */
+}
+
+.accordion .accordion-item {
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  font-weight: bold;
+}
+ul {
+  list-style: none; /* Remove default bullets */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox to align items in a row */
+  flex-wrap: wrap; /* Allow items to wrap if there's not enough space */
+}
+
+li {
+  margin-right: 15px; /* Add spacing between items */
+  display: flex; /* Keep list items flexible */
+  align-items: center; /* Center align items vertically */
+}

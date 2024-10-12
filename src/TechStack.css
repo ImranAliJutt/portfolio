@@ -1,0 +1,33 @@
+.tech-stack {
+    padding: 20px;
+    text-align: center; /* Center the text */
+    background-color: #F8F9FA;
+  }
+  .section-titles {
+    font-size: 2.5rem; /* Large font size for title */
+    font-weight: bold;
+    color: #000000; /* Darker color for title */
+    margin-bottom: 30px; /* Space below title */
+    text-align: center;
+  }
+  .stack-icons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons */
+    flex-wrap: wrap; /* Allow wrapping of icons if the screen is small */
+    gap: 20px; /* Space between icons */
+  }
+  
+  .stack-icons .fa-icon {
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .stack-icons .fa-icon:hover {
+    transform: scale(1.1); /* Scale the icon on hover */
+  }
+  
+  /* Optional: make the icons responsive and limit their max width */
+  .stack-icons svg {
+    max-width: 50px; /* Set max width for the icons */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

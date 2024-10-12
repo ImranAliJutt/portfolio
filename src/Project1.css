@@ -1,0 +1,53 @@
+/* Light background color for the entire section */
+.project-section {
+    background-color: #ffffff; /* Light background */
+    padding: 40px 0; /* Add spacing at the top and bottom */
+    text-align: center; /* Center-align title */
+  }
+  
+  .section-title {
+    font-size: 2.5rem; /* Large font size for title */
+    font-weight: bold;
+    color: #333; /* Darker color for title */
+    margin-bottom: 30px; /* Space below title */
+  }
+  
+  /* Dark container styling */
+  .project-container {
+    background-color: #343a40; /* Dark container background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px; /* Inner padding */
+    color: #ffffff; /* Text color */
+  }
+  
+  /* Project image styling */
+  .project-image img {
+    border-radius: 8px; /* Rounded image corners */
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+  }
+  
+  /* Project content styling */
+  .project-content h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .project-content p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #CED4DA; /* Lighter text color */
+  }
+  
+  /* Button styling */
+  button {
+    font-size: 1rem;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  button .me-2 {
+    margin-right: 10px;
+  }
+  
